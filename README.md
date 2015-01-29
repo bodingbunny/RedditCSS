@@ -1,5 +1,7 @@
 Stylesheet for /r/pics
+
 reddit username: boding_bunny
+
 The submission contains the .css file and images.
 
 I tried to create a clean, organized, and modern look for the subreddit. 
