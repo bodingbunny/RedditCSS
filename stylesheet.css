@@ -1,0 +1,1301 @@
+/* STYLESHEET MODIFIED BY BODING_BUNNY */
+
+/* BEP - Hanging Tab Code, modified by roger_ (ol -> h3) */
+.titlebox .usertext-body .md h3 a {
+    padding: 6px 6px 2px 6px;
+    margin: 5px;
+    border-bottom: 1px solid #5F99CF;
+    border-right:1px solid #5F99CF;
+    -webkit-border-bottom-right-radius: 7px;
+    -moz-border-radius-bottomright: 7px;
+    border-bottom-right-radius: 14px;
+    z-index:50;
+}
+.pagename {
+    font-size:12pt;
+}
+
+/* RES Nightmode */
+
+.res-nightmode .link { padding-bottom: 25px!important; }
+.res-nightmode .link .rank { background: #303030; color:#eee; }
+.res-nightmode .link .midcol { background: #161616; border-left: 1px solid #161616; border-right: 1px solid #161616; }
+.res-nightmode .link.even { background:  rgb(10, 10, 10)!important; border: 1px solid #000; margin: 0; position: relative; padding: 10px 0; padding-top: 12px; padding-bottom: 12px; }
+.res-nightmode .link.odd { background: rgb(10, 10, 10)!important; border: 1px solid #000; margin: 0; position: relative; padding: 10px 0; padding-top: 12px!important; padding-bottom: 12px; }
+.res-nightmode .entry.unvoted.RES-keyNav-activeElement.lcTagged, .res-nightmode .entry.likes.RES-keyNav-activeElement.lcTagged, .res-nightmode .entry.dislikes.RES-keyNav-activeElement.lcTagged { background-color: rgb(10,10,10)!important; background-image: url(%%transparent%%) !important;}
+.res-nightmode .RES-keyNav-activeElement, .commentarea .RES-keyNav-activeElement .md, .commentarea .RES-keyNav-activeElement.entry .noncollapsed { background-color: rgb(10,10,10)!important; background-image: url(%%dark%%) !important; }
+.res-nightmode .RES-keyNav-activeElement, .res-nightmode .RES-keyNav-activeElement .usertext-body, .res-nightmode .RES-keyNav-activeElement .usertext-body .md, .res-nightmode .RES-keyNav-activeElement .usertext-body .md p, .res-nightmode .commentarea .RES-keyNav-activeElement .noncollapsed, .res-nightmode .RES-keyNav-activeElement .noncollapsed .md, .res-nightmode .RES-keyNav-activeElement .noncollapsed .md p { background-image: url(%%dark%%) !important; }
+.res-nightmode ul.tabmenu li.selected a, .res-nightmode .redditname a.active { background: rgb(34,34,34); border: 1px solid rgb(153,153,153)!important; border-bottom: 1px solid rgb(34,34,34)!important; border-left: 0px solid rgb(34,34,34)!important; color: rgb(158,194,229); }
+.res-nightmode .tabmenu li a:hover, { background-color: rgb(255, 255, 255); }
+.res-nightmode .entry .tagline:first-of-type, .res-nightmode .entry time { color: rgba(227, 227, 227, 0.8); }
+.res-nightmode .share-button .option, .res-nightmode #subscribe a, .res-nightmode .share .option, .res-nightmode .tagline a, .res-nightmode .tagline .head .author, .res-nightmode .footer a, .res-nightmode .wired a, .res-nightmode .side a, .res-nightmode .subredditbox li a, .res-nightmode .link .score.dislikes, .res-nightmode .linkcompressed .score.dislikes, .res-nightmode a[rel="tag"], .res-nightmode .dsq-help, .res-nightmode #authorInfoToolTip h3 a, .res-nightmode .RES-keyNav-activeElement .md, .res-nightmode .help-toggle .option, .res-nightmode .morecomments a, .res-nightmode .reddiquette, .res-nightmode .parent .author, .res-nightmode .parent .subreddit, .res-nightmode .comment .md p a { color: rgba(25, 171, 250, 0.9); }
+.res-nightmode #header { border-bottom: 1px solid rgb(34,34,34)!important; }
+.res-nightmode .morelink { background: #333; }
+.res-nightmode .morelink a:hover { background: rgb(153,153,153)!important; border: 1px solid #333; color: #123c66; }
+.res-nightmode .side, .res-nightmode .side *, .res-nightmode .side .md { color: rgb(255, 255, 255); }
+.res-nightmode .titlebox .md ol li:first-child { background: #333; }
+.res-nightmode .titlebox .md ol li:first-child:hover { background: #224466; margin-left: 0; }
+.res-nightmode .titlebox .md ol li:hover { background: #224466; margin-left: 0; color: rgb(51, 51, 51); }
+.res-nightmode .titlebox .md ol li { background: #333; }
+.res-nightmode .sitetable { border-bottom: 0px solid #ffffff; }
+.res-nightmode #sr-header-area { border-bottom: 1px solid #777; }
+.res-nightmode #RESShortcutsEditContainer { background-color: #CCC!important; }
+.res-nightmode #RESShortcutsSort, .res-nightmode #RESShortcutsRight, .res-nightmode #RESShortcutsLeft, .res-nightmode #RESShortcutsAdd, .res-nightmode #RESShortcutsTrash { color: #333!important; background-color: #CCC!important; }
+.res-nightmode .sidecontentbox .title h1 { color: rgba(25, 171, 250, 0.9); }
+
+/* header bar */
+
+#sr-header-area {
+    background-color: #eff7ff;
+    white-space: nowrap;
+    text-transform: uppercase;
+    border-bottom: 1px solid #a1b9d1;
+    font-size: 90%;
+    height: 18px;
+    line-height: 18px;
+    padding: 3px;
+}
+
+#sr-header-area a:hover { color: #ee0000; text-decoration: none; }
+
+#header-bottom-right { margin-top: 6px; }
+
+#RESShortcutsEditContainer {
+    margin-right: 2px;
+    margin-top: 2px;
+    background-color: #eff7ff!important;
+}
+
+#RESShortcutsSort, #RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd, #RESShortcutsTrash {
+    color: #336699!important;
+    background-color: #eff7ff!important;
+}
+
+/* tabmenu */
+
+.tabmenu li a:hover {
+    color: #336699;
+    background-color: white;
+    border: 0px solid #5f99cf;
+    border-bottom: 0px solid white;
+    z-index: 100;
+}
+
+.tabmenu li.selected a {
+    color: #ee0000;
+    background-color: white;
+    border: 1px solid #a1b9d1;
+    border-bottom: 1px solid white;
+    z-index: 100;
+}
+
+/* header */
+
+#header {
+    border-bottom: 1px solid #a1b9d1;
+    position: relative;
+    background-color: #c6def5;
+    z-index: 99;
+}
+
+/* sidebar */
+
+.side {
+    position: relative;
+    margin: 0px 20px 0 0;
+    z-index: 401;
+    background-color: #fff;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 14px;
+    padding-right: 13px;
+    padding-top: 16px;
+    width: 303px;
+    border-left: 0px solid #a1b9d1;
+    border-bottom: 0px solid #a1b9d1;
+}
+
+.titlebox  {
+    border: 0px solid #E0E0E0;
+    background-color: #fff;
+    padding: 10px 10px 10px 10px;
+}
+
+.titlebox form.toggle, .leavemoderator {
+    margin: 0;
+    padding: 5px 0px;
+    font-size: smaller;
+    color: black;
+    background: #fff;
+}
+
+.sitetable { padding-top: 0; background: transparent; border-bottom: 1px solid #ffffff; border-left: 0px solid #dee5e7; margin-right: 0; }
+.sitetable.linklisting { margin-left: 5px; }
+
+#search input[type=text] {
+    border: 1px solid #6592bf;
+    width: 303px;
+}
+
+.linkinfo {
+    border-radius: 0px;
+}
+
+.morelink {
+    display: block;
+    text-align: center;
+    position: relative;
+    border: 1px solid #336699;
+    background: #336699;
+    font-size: 150%;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 29px;
+    height: 29px;
+}
+
+.morelink:hover { 
+    border: 1px solid #6592bf; 
+    background-image: url(%%transparent%%); 
+}
+
+.morelink .nub {
+    height: 0px;
+    width: 0px;
+}
+
+.morelink a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #fff;
+}
+
+.morelink a:hover {
+    display: block;
+    background: #c6def5;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #2d5a87;
+    text-decoration: none;
+}
+
+.login-form-side { border: 1px solid #6592bf; }
+
+.icon-menu a { background: #fff; }
+
+.sidecontentbox .content {
+    margin: 0;
+    padding: 5px;
+    background: #fff;
+    border: 1px solid #6592bf;
+    font-size: larger;
+    list-style: none;
+}
+
+.sidecontentbox .title h1 {
+    display: inline;
+    text-transform: uppercase;
+    margin: 0;
+    color: #336699;
+    font-size: 130%;
+}
+
+.sidebox .spacer {
+    position: relative;
+    margin-top: 10px;
+    padding: 5px 0 0 44px;
+    min-height: 41px;
+    background: #fff;
+}
+
+.sidebox .subtitle {
+    margin-left: 10px;
+    color: #336699;
+    font-size: 110%;
+}
+
+.side h6:nth-of-type(1) {
+    position: absolute;
+    top: 70px;
+    left: 53px;
+    background: #222299;
+    color: black;
+    border: 1px solid #000066;
+    border-left: 0;
+    border-right: 0;
+    height: 24px;
+    line-height: 24px;
+    text-shadow: 0px 1px 0px #222299;
+}
+
+.md ul {
+    margin-top: 10px;
+    margin-right:10px;
+    margin-left: 15px;
+    margin-bottom:10px;
+    list-style: square outside;
+}
+
+.md ul li {
+    margin-top: 6px;
+    text-align: justify;
+}
+
+/* Rules (base from /r/askreddit) */
+
+.titlebox .md ol { margin:0 0 0 17px;}
+
+.titlebox .md ol{
+    counter-reset: li;
+    list-style: none;
+    font: 15px 'Arial';
+    padding: 0;
+}
+
+.titlebox .md ol li{
+    position: relative;
+    display: block;
+    padding: .4em .8em .4em 2em;
+    margin: .5em .5em .5em 0;
+    background: #fff;
+    color: #444;
+    text-decoration: none;
+    border-radius: 0;
+    border: 1px solid #6592bf;
+    font-size:12px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.titlebox .md ol li:hover { background: #cee3f8; border: 1px solid #6592bf; }
+
+.titlebox .md ol li:first-child { margin-top: 0; padding-top: 5px; background: #ffffff; border: 1px solid #6592bf;}
+.titlebox .md ol li:first-child:hover { background: #cee3f8; margin-left: 0; }
+
+.titlebox .md ol li:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;	
+    left: -1.1em;
+    margin-top: -1.1em;
+    top: 50%;
+    background: #336699;
+    height: 2em;
+    color: #fff;
+    width: 2em;
+    line-height: 2em;
+    border: .1em solid #336699;
+    text-align: center;
+    font-weight: bold;
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -ms-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    transition: all .1s ease;
+}
+
+.titlebox .md ol li:hover:before{
+    -ms-transform: scale(1.3,1.3);
+    -webkit-transform: scale(1.3,1.3);
+    transform: scale(1.3,1.3);
+    text-align: center;
+    background: #336699;
+}
+
+.titlebox .md ol li:hover:after {
+    position: absolute;
+    white-space: normal;
+    display: block;
+    z-index: 1000;
+    width: 266px;
+    border-top: 1px solid #587fa6;
+    border-bottom: 1px solid #587fa6;
+    padding: 6px 10px;
+    background: #587fa6;
+    content: " ";
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    margin-left: -45px;
+    margin-top: 10px;
+}
+
+.titlebox .md ol li:first-child:hover:after {
+content: "This includes image macros, comics, infographics and most diagrams. Text (e.g. a URL) serving to credit the original author is exempt."; margin-left: -45px;
+}
+
+.titlebox .md ol li:nth-child(2):hover:after {
+content: "NSFW content must be tagged.";
+}
+
+.titlebox .md ol li:nth-child(3):hover:after {
+content: "This includes anything hosted on Facebook's servers, as they can be traced to the original account holder. Stalking & harassment will not be tolerated. No missing-persons requests!";
+}
+
+.titlebox .md ol li:nth-child(4):hover:after {
+content: "(e.g. 'upvote this')";
+}
+
+.titlebox .md ol li:nth-child(5):hover:after {
+content: "'[FIXED]' posts should be added as a comment to the original image.";
+}
+
+.titlebox .md ol li:nth-child(6):hover:after {
+content: "We do not allow blog hosting of images ('blogspam'), but links to albums on image hosting websites are okay. URL shorteners are prohibited.";
+}
+
+.titlebox .md ol li:nth-child(7):hover:after {
+content: "Please submit them to /r/gif, /r/gifs, or /r/reactiongifs instead.";
+}
+
+/**************************/
+/** Fancy tables v1.0 by roger_      
+/**************************/
+/* Take custom headers from bold text */
+.titlebox tr strong, .titlebox th  {
+    color: white; 
+    background-color: #336699;
+    margin-top:-2px;
+    margin-right:-3px;
+    margin-left:-3px;
+    margin-bottom:-2px;
+    text-align:left;
+    border-color: #336699;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 10px;
+}
+
+/* Exception for rows */
+.titlebox tr strong { display:block }
+
+/* Exception for headings */
+.titlebox th  {
+    border-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 2px;
+}
+
+/* Cell specific stuff */
+.titlebox td {
+    border-style: none;
+    padding: 3px;
+    font-size: 80%;
+    width: 50%;
+}
+
+/* Table border */
+.titlebox table {
+    border-color: #336699;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+    width:100%;
+    margin-bottom:0px;
+}
+
+/* Font size headings */
+.side .md th {
+    font-size: 11px;
+    line-height: 1.1em;
+}
+
+
+/* links */
+
+.link {
+    margin: 0;
+    position: relative;
+    padding: 10px 0;
+    padding-top: 12px;
+    padding-bottom: 25px;
+    border: 1px solid #E0E0E0;
+    background-color: #F7F7F7;
+    overflow: hidden;
+}
+
+.linklisting>.clearleft { margin: 5px; }
+
+.linklisting { z-index: 200; }
+
+.link .rank {
+    position: absolute;
+    margin-top: 0;
+    top: 0;
+    bottom: 0;
+    min-width: 38px;
+    text-align: center;
+    color: #333333;
+    background: #d5e2f0;
+    padding-top: 28px;
+    border: 0px solid #c6def5;
+}
+
+.link .midcol {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 0 40px 0 38px;
+    padding-top: 14px;
+    min-width: 47px;
+    font-family: arial;
+    background: #e9eff5;
+    border: 0px solid #c6def5;
+    border-right: 1px solid #d4d4d4;
+    border-left: 1px solid #d4d4d4;
+}
+
+/* uncomment to change the background color if voted
+.link .midcol.likes { background: #ffcdba; }
+.link .midcol.dislikes { background: #d5d4ff; }
+uncomment to change the background color if voted */
+
+.link p.title { margin-left: 168px; }
+.link p.tagline { margin-left: 168px; padding: 8px 0 0 4px; }
+.link .flat-list { margin-left: 168px; padding: 1px 0 0 4px; }
+
+.link.last-clicked {
+    border: 1px solid #E0E0E0;
+    overflow: hidden;
+}
+
+.thumbnail {
+    position: absolute;
+    float: left;
+    font-size: 0;
+    margin-left: 95px;
+    margin-right: 7px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    width: 70px;
+    z-index: 400;
+}
+
+.tagline { color: #737373; }
+
+.domain a { color: #737373; }
+
+.entry .buttons li a {
+    color: #737373;
+    text-decoration: none;
+}
+.entry .buttons li a:hover {
+    color: #ee0000;
+    text-decoration: none;
+}
+
+.arrow.up {
+    background-image: url(%%new-sprite-reddit%%);
+    background-position: -42px -818px;
+    background-repeat: no-repeat;
+}
+
+.link .score {
+    text-align: center;
+    color: #999999;
+}
+
+.arrow.down {
+    margin-top: -1px;
+    background-image: url(%%new-sprite-reddit%%);
+    background-position: 0px -818px;
+    background-repeat: no-repeat;
+}
+
+.arrow.down:hover {
+    background-image: url(%%arrow-down%%);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+
+.arrow.up:hover {
+    background-image: url(%%arrow-up%%);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+
+.arrow.downmod { margin-top: -1px; }
+
+.expando-button.image.collapsedExpando { margin-left: 168px; margin-top: 10px; }
+
+.expando-button.image.expanded {margin-left: 168px; margin-top: 10px; }
+
+.RESImage { margin-left: 168px; margin-top: 6px; z-index: 1000!important; }
+
+.fancy-toggle-button .active { border-radius: 0px; }
+
+.RESshortcutside { border-radius: 0px!important; }
+
+.RESDashboardToggle { border-radius: 0px!important; }
+
+body > .content {
+    margin-left:4px;
+    margin-right:10px;
+}
+
+.entry.unvoted.RES-keyNav-activeElement.lcTagged, .entry.likes.RES-keyNav-activeElement.lcTagged, .entry.dislikes.RES-keyNav-activeElement.lcTagged { 
+    background-color: rgb(247, 247, 247) !important;
+}
+
+.RES-keyNav-activeElement, .commentarea .RES-keyNav-activeElement .md, .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
+    background-image: url(%%lightgrey%%) !important; /* Fuck you RES */
+}
+
+.thing .title { color: #0057ad; }
+
+a { color: #004991; }
+
+.tagline a { color: #004991; }
+
+
+
+/* UNMODIFIED PART OF /R/PICS */
+
+/* UNCOMMENT FOR AN ANNOUNCEMENT
+ * .content {
+ *     margin-top: 30px
+ *     }*/
+
+.titlebox .usertext-body .md h3 a:hover {
+    color:#444488;
+}
+.titlebox form {
+    position: static
+}
+.titlebox .usertext-body .md h3 {
+    list-style: none;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    padding:0px;
+    margin:0px;
+overflow:visible;
+}
+.titlebox .usertext-body .md h3 a {
+    background-color: white;
+    /*color: #111155;*/
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    font-weight:normal;
+}
+
+/* End tab code */
+
+/* make the "give gold" link golden */
+.give-gold {color: #9A7D2E !important;}
+
+
+/*replace "readers" with something else*/
+div.titlebox span.word {
+display: none
+}
+
+div.titlebox .subscribers span.number:after {  
+content: " photographers"  
+}
+
+div.titlebox .users-online span.number:after {
+content: " users online"
+}
+
+.footer .flat-list:active {
+background-position: 0 -108px;
+}
+
+.footer .flat-list li {
+display:none;
+visibility:hidden;
+}
+.flair-tweetposter {
+border: 0;
+padding: 0;
+background: transparent url(%%t-p%%) center center no-repeat;
+height: 16px;
+width: 16px;
+text-indent: -9999px;
+}
+
+/* blink text by cfabbro*/
+h4 {
+font-size:small;
+font-weight:normal;
+color:#222222;
+}
+
+/* small green text (based on blink by cfabbro) */
+pre {
+font-size:small;
+font-weight:normal;
+color:green;
+}
+
+/* BEP addition of Chromakode to make NSFW easier marked */
+
+.link.over18 a.comments:before {
+    text-decoration: overline underline;
+}
+
+.id-t3_bxcwv a.comments:before {
+    content:' NSFW ';
+    text-decoration: overline underline;
+    color:red;
+}
+
+/*highlight only banned or reported comments and not their children (by thibit)*/
+
+.reported.comment>.child, .spam.comment>.child {
+    background-color: white;
+    margin-left: 0;
+    padding-left: 15px;
+}
+
+/* BEP smoothing of top tabs */
+
+.tabmenu li a{
+
+}
+
+/* highlight original poster, taken from IamA */
+.author.submitter {
+    color: white;
+    padding: 0 2px 0 2px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px
+    }
+.noncollapsed .author.submitter {
+    background-color: #5F99CF
+    }
+.collapsed .author.submitter {
+    color: white;
+    background-color: #AAA
+    }
+.author.submitter:hover {
+    background-color: #4E7EAB;
+    text-decoration: none
+    }
+
+
+/* SUBMIT PAGE TEXT for people who always make self posts in pics without linking anywhere */
+#link-desc:after {
+    display: block;
+    margin-top: 1em;
+    font-weight: bold;
+    color: red;
+content: "This tab is for LINK-BASED submissions."
+    }
+
+#text-desc:after {
+    display: block;
+    margin-top: 1em;
+    font-weight: bold;
+    color: red;
+content: "This tab is for TEXT-BASED submissions, it will not link anywhere. You can't have your cake and eat it too. Sorry!"
+    }
+/* END SUBMIT PAGE TEXT */
+
+/* Announcement Sticky Note (Shows when logged in), stolen from /r/netsec*/
+body > .content > .sharelink ~ .sitetable:before {
+    content: "Help improve /r/pics by checking the new queue - report spam & upvote new submissions.";
+    background-image: url(%%snoo%%);
+    background-repeat: no-repeat;
+    font-family: verdana, sans-serif;
+    font-size: 12px;
+    color: #555555;
+    text-align: left;
+    padding: 10px 0px 10px 40px;
+    margin: 15px;
+    display: block;
+    width: 70%;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px
+    }
+
+/* make the personal info warning in the sidebar red */
+.titlebox a[href^="http://www.reddit.com/help/faq#Ispostingpersonalinformationok"]{
+    color: red;
+}
+
+/* 
+ * ** Tool-tip hover for report button -roger_
+ * */
+.linklisting .report-button:hover:before {
+    content: "This button is *only* to report spam and rule violations";
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    /*width: 125px;*/
+    padding: 5px;
+    border: 1px solid #919191;
+    border-radius: 5px;
+    background-color: #FCFCFC;
+    color: #6B6B6B;
+    text-align: center;
+    font-size: 11px;
+    font-weight: normal;
+    margin-left: -15px;
+    margin-top: -50px;
+    box-shadow: 2px 2px 5px #888888
+    }
+
+/* Encouraging better titles - jamt9000 */
+.submit #title-field .title, .submit #url-field .title {
+    display: block;
+}
+.submit #title-field .title:after{
+    content: "Try to think of a creative title";
+    display:block;
+    font-size: 10pt;
+}
+
+.submit #url-field .title:after{
+    content: "Please try to credit the original author, you can use tineye.com or google images to search for the source. Do not use image hosts like tinypic or photobucket, they disable images with high bandwidth.";
+    display:block;
+    font-size: 10pt;
+}
+
+/*User flair*/
+
+.flair {
+    padding:0; 
+    color:DimGray;
+    border:0;
+    border-radius:0;
+    text-indent:0px;
+    position:relative;
+    top:3px;
+    left:2px
+
+}
+
+.flair-glass {   
+    background: transparent;
+    background-image: url(%%spyglass%%);
+    background-repeat: no-repeat;
+    text-indent:-9999px;
+    width: 17px;
+    height: 16px;
+ }
+
+.flair-ring {   
+    background: transparent;
+    background-image: url(%%OneRing%%);
+    background-repeat: no-repeat;
+    text-indent:-9999px;
+    width: 17px;
+    height: 16px;
+}
+.flair-fox {   
+    background: transparent;
+    background-image: url(%%Foxes%%);
+    background-repeat: no-repeat;
+    text-indent:-9999px;
+    width: 17px;
+    height: 16px;
+ }
+.flair-sheep {   
+    background: transparent;
+    background-image: url(%%sheep%%);
+    background-repeat: no-repeat;
+    text-indent:-9999px;
+    width: 17px;
+    height: 16px;
+ }
+
+
+/***********************************/
+/** Automatic post flagging v2.11 by roger_  || DON'T TOUCH OR ROGER WILL SMASH YOU**/
+/***********************************/
+
+/* Default formatting */
+a[class~="title"]:before,
+a[class~="comments"]:before,
+a[class~="comments"]:after {
+    background-color: #FFE8ED;
+    content: "";
+    color: red; 
+    font-weight:bold;
+    border-width:0px;
+    margin-right:5px;
+    padding-left:3px;
+    padding-right:3px;
+    border-radius: 0px;
+    display:none;
+ }
+
+/* Title tags need to be a bit smaller */
+a[class~="title"]:before {
+    font-size:70%;
+}
+
+/* Match post titles: "upvote if"/"DAE"/"fixed" */
+a[href*="upvote_if_"][class~="comments"]:before,
+a[href*="please_upvote"][class~="comments"]:before,
+a[href$="fixed/"][class~="comments"]:before,
+a[href*="does_anybody"][class~="comments"]:before,
+a[href*="does_anyone"][class~="comments"]:before,
+a[href*="anybody_else"][class~="comments"]:before,
+a[href*="anyone_else"][class~="comments"]:before,
+a[href*="/dae_"][class~="comments"]:before {
+    content: "Inappropriate post title. Read rule V";
+    display:block;
+}
+
+/* Match post titles: "cake day" */
+a[href*="reddit_birthday"][class~="comments"]:before,
+a[href*="_cake_day"][class~="comments"]:before,
+a[href*="_cakeday"][class~="comments"]:before,
+a[href*="/cake_day"][class~="comments"]:before,
+a[href*="/cakeday"][class~="comments"]:before {
+    content: "Inappropriate post title. Read rule V";
+    display:block;
+}
+
+/* Match post titles: nsfw" 
+ * a[href*="_gore_"][class~="comments"]:before {
+ *     content: "NSFW submissions not permitted. Read rule II";
+ *         text-decoration: none;
+ *             display: block;
+ *             }*/
+
+/* Match URLs: quickmeme.com, memegenerator.net, etc. */
+a[href*="quickmeme.com"][class~="title"]:before,
+a[href*="memegenerator.net"][class~="title"]:before,
+a[href*="troll.me"][class~="title"]:before,
+a[href*="cheezburger.com"][class~="title"]:before,
+a[href*="explosm.net"][class~="title"]:before,
+a[href*="qkme.me"][class~="title"]:before {
+    content: "No comics/macros. Read rule I" ;
+    display: block;
+ }
+
+/* Match URLs: Facebook servers */
+a[href*="fbcdn-sphotos"][class~="title"]:before,
+a[href*="fbcdn.net"][class~="title"]:before {
+    content:"Server not allowed. Read rule III" ;
+    display:block;
+}
+
+/* The following section was added by syncretic */
+
+/* Match post titles: unoriginal/meme*/
+a[href*="shit_like_this"].comments:after,
+a[href*="nailed_it"].comments:after,
+a[href*="/not_sure_if"].comments:after,
+a[href*="/i_see_your"].comments:after,
+a[href*="/ill_see_your"].comments:after,
+a[href*="doing_it_right"].comments:after,
+a[href*="doing_it_wrong"].comments:after,
+a[href*="am_i_doing_this_right"].comments:after,
+a[href*="how_i_feel"].comments:after,
+a[href*="/dear"].comments:after,
+a[href*="nothing_to_see_here"].comments:after,
+a[href*="/meanwhile_in"].comments:after,
+a[href*="found_this_gem"].comments:after,
+a[href*="/fuck_everything_about"].comments:after,
+a[href*="/i_see_what_you_did_there"].comments:after,
+a[href*="like_a_boss"].comments:after,
+a[href*="/soon/"].comments:after,
+a[href*="come_at_me_bro"].comments:after,
+a[href*="all_the_things"].comments:after,
+a[href*="/damn_nature"].comments:after,
+a[href*="that_is_all/"].comments:after,
+a[href*="/if_you_do_this"].comments:after {
+    content: "Clichéd/unoriginal post title";
+    display:block;
+    color: white;
+    border-color: white; 
+    background-color:#CCCCCC;
+    margin-left: 2px;
+    margin-right: 0px;
+}
+
+/* Exceptions */
+/* How to add exceptions: a[href*="comments/RedditIDHere].comments:before, */
+a[href*="comments/qjnph"].comments:before,
+a[href*="comments/2llx9w"].comments:before,
+a[href*="anyone_know"][class~="comments"]:before,
+a[href*="zc18t"][class~="comments"]:before,
+a[href*="comments/w8hes"].comments:after,
+.linkflair-ignore a[class~="comments"]:before,
+.linkflair-ignore a[class~="title"]:after,
+a[href*="anybody_know"][class~="comments"]:before
+ {
+    display:none
+}
+
+/***********************************************************/
+/** Spam queue domain/file-type validation v1.2 by roger_ **/
+/***********************************************************/
+
+/* Changelog:
+ *  * Tblue 2012-01-05: Display OK/invalid domains instead of replacing them with the indicator.
+ *   */
+
+/* default formatting for domain and status, and extension tags */
+.thing.spam .title a:after,
+.thing.spam .domain a:after,
+.thing.spam .domain a {
+    color:white;
+    background-color:orange;
+    padding-left:4px;
+    padding-right:4px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px; 
+}
+
+/* defaults for extension tags only */
+.thing.spam .title a:after {
+    font-size: 60%;
+    margin-left: 3px;
+}
+
+/* defaults for status only */
+.thing.spam .domain a:after {
+    font-weight:bold;
+    content:"- ?";
+    font-size: 100%;
+}
+
+/* Tag PNG files */
+.thing.spam .title a[href$=".png"]:after {
+    background-color:green;
+    content:"PNG";
+}
+
+/* Tag JPG files */
+.thing.spam .title a[href$=".jpg"]:after,
+.thing.spam .title a[href$=".jpe"]:after,
+.thing.spam .title a[href$=".jpeg"]:after {
+    background-color:green;
+    content: "JPEG";
+}
+
+/* Tag GIF files */
+.thing.spam .title a[href$=".gif"]:after {
+    background-color:green;
+    content: "GIF";
+}
+
+/* Tag BMP files */
+.thing.spam .title a[href$=".bmp"]:after {
+    background-color:green;
+    content: "BMP";
+}
+
+/* PERMITTED DOMAINS */
+/* flag domain itself */
+.thing.spam .domain a[href*="wikipedia"],
+.thing.spam .domain a[href*="flickr"],
+.thing.spam .domain a[href*="tumblr.com"],
+.thing.spam .domain a[href*="dropbox.com"],
+.thing.spam .domain a[href*="media.tumblr.com"],
+.thing.spam .domain a[href*="s3.amazonaws.com"],
+.thing.spam .domain a[href*="files.wordpress.com"],
+.thing.spam .domain a[href*="imageshack"],
+.thing.spam .domain a[href*="imgur"],
+.thing.spam .domain a[href*="img.ur"] {
+    background-color:green;
+}
+
+/* add indicator */
+.thing.spam .domain a[href*="wikipedia"]:after,
+.thing.spam .domain a[href*="flickr"]:after,
+.thing.spam .domain a[href*="tumblr.com"]:after,
+.thing.spam .domain a[href*="dropbox.com"]:after,
+.thing.spam .domain a[href*="media.tumblr.com"]:after,
+.thing.spam .domain a[href*="s3.amazonaws.com"]:after,
+.thing.spam .domain a[href*="files.wordpress.com"]:after,
+.thing.spam .domain a[href*="imageshack"]:after,
+.thing.spam .domain a[href*="imgur"]:after,
+.thing.spam .domain a[href*="img.ur"]:after {
+    background-color:green;
+    content:"- ok";
+}
+
+/* FORBIDDEN DOMAINS */
+/* flag domain itself */
+.thing.spam .domain a[href*="quickmeme.com"],
+.thing.spam .domain a[href*="qkme.me"],
+.thing.spam .domain a[href*="memegenerator.net"],
+.thing.spam .domain a[href*="troll.me"],
+.thing.spam .domain a[href*="cheezburger.com"],
+.thing.spam .domain a[href*="fbcdn"],
+.thing.spam .domain a[href*="facebook.com"],
+.thing.spam .domain a[href*="explosm.net"],
+.thing.spam .domain a[href*="youtube"],
+.thing.spam .domain a[href*="youtu.be"],
+.thing.spam .domain a[href*="buzzfeed.com"],
+.thing.spam .domain a[href*="edencaf.forumfree.it"] {
+    background-color: red;
+}
+ 
+/* add indicator */
+.thing.spam .domain a[href*="quickmeme.com"]:after,
+.thing.spam .domain a[href*="qkme.me"]:after,
+.thing.spam .domain a[href*="memegenerator.net"]:after,
+.thing.spam .domain a[href*="troll.me"]:after,
+.thing.spam .domain a[href*="cheezburger.com"]:after,
+.thing.spam .domain a[href*="fbcdn"]:after,
+.thing.spam .domain a[href*="facebook.com"]:after,
+.thing.spam .domain a[href*="explosm.net"]:after,
+.thing.spam .domain a[href*="youtube"]:after,
+.thing.spam .domain a[href*="youtu.be"]:after,
+.thing.spam .domain a[href*="buzzfeed.com"]:after,
+.thing.spam .domain a[href*="edencaf.forumfree.it"]:after {
+    background-color: red;
+    content: "- X";
+}
+
+/*******************************/
+
+
+/* Flair template for "bad" posts -roger_ */
+.linkflair-bad .linkflairlabel {
+    background-color: #FFE8ED;
+    color: red;
+    font-weight:bold;
+    border-width:0px;
+    border-radius: 0px;
+ }
+
+.linkflairlabel {color:red !important; font-weight:900; background:white !important; border:1px solid red; }
+
+
+html {
+position: relative
+}
+
+/* Limits r/pics tags to this subreddit when using search function*/
+
+body.search-page a[class~="comments"]:before, body.search-page a[class~="title"]:before { display: none }
+
+/* Adds a hover box over the message the moderators link */
+.helplink:hover:before {
+position: absolute;
+display: block;
+z-index: 1000;
+width: 125px;
+padding: 5px;
+border: 1px solid #919191;
+border-radius: 5px;
+background-color: #FCFCFC;
+color: #6B6B6B;
+content: "Please include all relevant links if needed!";
+text-align: center;
+font-size: 11px;
+font-weight: normal;
+margin-left: -15px;
+margin-top: -50px;
+box-shadow: 2px 2px 5px #888888
+}
+
+/* SPOILER CODE */
+a[href$="/spoiler"] {
+    background: none repeat scroll 0 0 #000000 !important;
+    color: #000000 !important
+}
+a[href$="/spoiler"]:hover {
+    color: #ffffff !important
+}
+
+/* lololol */
+.author[href$="/GuitarFreak027"]{color:#3395DF}.author[href$="/GuitarFreak027"]:after{content:url(%%hat%%)}
+
+/* Submit Warning - stolen from /r/AskScience */
+.sidebox.submit:hover:before {
+    position: fixed;
+    display: block;
+    top: 0;
+    text-align: center;
+    background-color: #a00;
+    color: #fff;
+    z-index: 1000;
+    padding: 5px 0;
+    width: 100%;
+    left: 0;
+    font-size: 16px;
+    font-weight: normal;
+    content: "Please read the rules, and note that screenshots and superimposed text aren't allowed"
+    }
+
+
+
+/*******************************
+ */ Large remove buttons v1.01 -roger_
+/*******************************/
+
+html:lang(re) .moderator.listing-page .linklisting  .thing.link {
+    padding-left: 92px;
+}
+
+/* move parent to left */
+html:lang(re) .moderator.listing-page ul.flat-list.buttons li:nth-child(6) {
+    position: absolute !important;
+    left: 0px;    
+    width: 20px;
+    height: 100px;
+}
+
+/* move child to middle */
+html:lang(re) .moderator.listing-page ul.flat-list.buttons li:nth-child(6) form.toggle.remove-button {
+    position: relative !important;
+    top: -18px;
+
+    width: 100%;
+    height: 100%;
+    min-width: 100%
+}
+
+/* hide remove confirmation and "no" button */
+html:lang(re) .moderator.listing-page ul.flat-list.buttons li:nth-child(6) form.toggle.remove-button span.option.error.active {
+     font-size: 0;
+}
+html:lang(re) .moderator.listing-page ul.flat-list.buttons li:nth-child(6) form.toggle.remove-button span.option.error.active .no {
+    display: none;
+}
+
+/* but show "yes" button */
+html:lang(re) .moderator.listing-page ul.flat-list.buttons li:nth-child(6) form.toggle.remove-button span.option.error.active a.yes {
+     /*content: "sure?";*/
+     font-size: 10pt;
+     background-color: #FFDBDB ;
+    border-color: red !important;
+
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+/* default appearance for remove section */
+html:lang(re) .moderator.listing-page ul.flat-list.buttons li:nth-child(6) form.toggle.remove-button {
+    font-weight: bold;
+    color: #D6D6D6;
+    text-align: center;
+}
+
+/* default appearance for remove buttons */
+html:lang(re) .moderator.listing-page ul.flat-list.buttons li:nth-child(6) form.toggle.remove-button a {
+    padding: 100%;
+    background-color: #F0F0F0;
+    color: gray !important;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-size: 120%;
+    font-weight: bold;
+    border: 1px solid gray !important;
+    text-decoration: none;
+}
+
+/* hover appearance for remove button (same as "yes" button) */
+html:lang(re) .moderator.listing-page ul.flat-list.buttons li:nth-child(6) form.toggle.remove-button a:hover {
+    background-color: #FFDBDB ;
+    border-color: red !important;
+}
+
+/*************************/
+
+
+.md a[title~="orange"] {
+    color: #DB963E !important;
+}
+
+/***************************************/
+/* Temporary mod messages v0.13 -roger_ */
+/***************************************/
+
+/* Make some room */
+body.post-under-10m-old.comments-page.post-submitter .link p.tagline  {
+    font-size: 0;
+}
+
+/* hide flair */
+body.post-under-10m-old.comments-page.post-submitter .link p.tagline span.flair {
+    display: none;
+}
+
+/* RES fix */
+body.post-under-10m-old.comments-page.post-submitter .link span.RESUserTag {
+    display: none;
+}
+
+/* Highlight 'delete' button */
+body.post-under-10m-old.comments-page.post-submitter .link form.toggle.del-button a.togglebutton {
+    color: #F18B97;
+}
+
+/* Add message */
+body.post-under-10m-old.comments-page.post-submitter .link p.tagline:after  {
+    font-size: 8pt;
+    content: "PLEASE post elsewhere if your pic is a screenshot or has text, otherwise ignore this";
+    color: white;
+    border-color: #FF5656;
+    border-style: solid;
+    border-radius: 4px;
+    padding: 1px 3px 1px 15px;
+    background-image: url(%%timer%%);
+    background-repeat: no-repeat;
+    background-position: 2px 50%;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: pre-line;
+    border-width: 1px 1px 1px 1px;
+    background-color: #FF4F4F;
+    line-height: 20px;
+}
+/*************************/
+
+/* clip post titles */
+html:lang(re) .thing .title   {
+    overflow: hidden;
+    /* text-overflow: ellipsis;*/
+    white-space: nowrap;
+    width: 30em;
+}
+
+/* nt.pics.reddit.com */
+html:lang(nt) #siteTable.sitetable.linklisting:not(.organic-listing) .thing a.title  {
+font-size: 0 !important;
+}
+ 
+html:lang(nt) #siteTable.sitetable.linklisting:not(.organic-listing) .thing a.title:after {
+font-size: initial !important;
+content: "[Title Hidden]";
+}
+
+html:lang(nt) a.thumbnail img {
+    width: 140px;
+    height: auto; /* since not all images square */ 
+ } 
+
+html:lang(nt) a.thumbnail {
+    width: 140px;
+}
+
+
+
+/* Hide text in over-ride/ignore flair */
+.linkflair-ignore p.title span.linkflairlabel {
+    font-size: 0;
+    display: none;
+}
+
+/* Comment box notice, from /r/AskReddit */
+
+.commentarea .usertext textarea {
+    background-image: url(%%commentbox-note%%);
+    background-repeat: no-repeat;
+}
+
+.commentarea .usertext textarea:focus {
+    background-position: 0 -104px;
+    right: -50px
+}
