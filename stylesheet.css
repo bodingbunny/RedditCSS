@@ -236,7 +236,7 @@
 .md ul {
     margin-top: 10px;
     margin-right:10px;
-    margin-left: 15px;
+    margin-left: -20px;
     margin-bottom:10px;
     list-style: square outside;
 }
